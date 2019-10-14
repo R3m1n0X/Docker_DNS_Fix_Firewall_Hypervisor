@@ -14,7 +14,7 @@
 # -A ufw-user-input -p tcp --dport 53 -s XXX.XXX.XXX.XXX/24 -j ACCEPT # Network ID
 # -A ufw-user-input -p udp --dport 53 -s XXX.XXX.XXX.XXX/24 -j ACCEPT # Network ID
 #
-
+# by Marvin Beckmann
 
 dns_server=$(ip -4 addr show "$(ip -4 route list 0/0 | awk '{print $5}')" | grep inet | awk '{print $2}' | awk -F'/' '{print $1}')
 
