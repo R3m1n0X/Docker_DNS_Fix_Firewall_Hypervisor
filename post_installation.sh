@@ -3,7 +3,7 @@
 #
 # Please use this script only, if you know what you are doing. Using it at your own risk.
 #
-# Post-Installation DNS-Fix for Cloudogu-Instance behind a hypervisor or a firewall.
+# Post-Installation DNS-Fix for Docker-Deamons behind a hypervisor or a firewall.
 # You have to execute this script as root on the VM
 #
 # Dont forget to edit /etc/ufw/user.rules
